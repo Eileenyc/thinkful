@@ -1,0 +1,114 @@
+G=14
+M=12
+P=11
+J=10
+B=8
+C=6
+
+Oliver=8
+
+1. 
+Mean: 47+22=69/7 9and6/7 = 9.86
+Median: 6,8,8,10,11,12,14 = 10
+Mode: 8
+
+Sample Variance: v= sum((x-mean)**2/(n-1)
+Population Variance: 
+v = sum(x-mean**2/n)
+    G=((14-9.86)**2)/7 = 17.1396/7
+    M=((12-9.86)**2)/7 = 4.5796/7
+    P=((11-9.86)**2)/7 = 1.2996/7
+    J=((10-9.86)**2)/7 = 0.0196/7
+    B=((8-9.86)**2)/7 = 3.4596/7
+    C=((6-9.86)**2)/7 = 14.8996/7
+    O=((8-9.86)**2)/7 = 3.4596/7
+
+    v = 44.8572/7 
+    v = 6.408
+
+Standard Deviation: 
+(square root of variance)
+    s= v**0.5
+    s=6.408**0.5
+    STANDARD DEVIATION=2.53
+
+Standard Error: 
+quantifies uncertainty in the estimate of the sample mean
+    se = s/(n**0.5)
+    se = 2.5314027/(7**0.5)
+    se = 2.5314027/2.64575131
+    STANDARD ERROR = 0.96
+
+2. If i had to pick 1 estimate of central tendency and 1 estimate of variance I would choose mean and variance. The mean would give me an idea of where the datapoints are falling and variance would tell me how important additional datapoints are and how far the spread is from the mean.
+
+3. Age Cindy to 7 and recalculate
+G=14,M=12,P=11,J=10,B=8,C=7,Oliver=8
+
+Mean: 70/7 = 10
+Median: 7,8,8,10,11,12,14 = 10
+Mode: 8
+
+Variance: 
+    v = sum((x-mean)**2/n)
+    v = 38.1372/7 
+    v = 5.45
+
+Standard Deviation: (square root of variance)
+    s = v**0.5 
+    s = 5.44817143**0.5
+    s = 2.33
+
+Standard Error: quantifies uncertainty in the estimate of the sample mean
+    se = s/(n**0.5)
+    se = 2.334131836/(7**0.5)
+    se = 2.334131836/2.64575131
+    se = 0.88
+
+3. Average changed and any metric involved with the average (variance, standard error and standard deviation)
+
+4.
+
+v = 38.1372/7 
+v = 5.45
+
+STANDARD DEVIATION
+s = v**0.5
+s = 2.53
+
+STANDARD ERROR 
+se = s/(n**0.5)
+se = 2.53/0.95678029
+se = 0.88
+
+4. G=14,M=12,P=11,J=10,B=8,C=7,jessica=1
+
+MEAN: 63/7 = 9
+MEDIAN: 10
+MODE: none
+VARIANCE: 
+    v = sum((x-mean)**2/n)
+    v = sum((x-9)**2)/7
+    v = 15.43
+STANDARD DEVIATION:
+    s = v**0.5
+    s = 3.928
+STANDARD ERROR:
+    se = s/(n**0.5)
+    se = 1.485
+    
+4. Does preference my preference of metric for central tendency & metric for variation change?
+
+5.
+TV Guide 20% 
+Entertainment Weekly 23% 
+Pop Culture Today 17% 
+SciPhi Phanatic 5% 
+mean: 16.25%
+median: 18.5%
+variance: 14.802
+standard deviation: 3.847
+standard error: 1.45
+
+***I'd guess 14.80% - 17.7% if we go by the mean + standard error
+ 
+
