@@ -1,0 +1,26 @@
+In each of the scenarios, find possible shortcomings of the theoretical or actual data sources to answer the given question. What could be done to either adjust the analysis or reframe the question so that you can answer it accurately?
+
+Data Source: Amsterdam availability data scraped from AirBnB on December 24th. 
+Question: What are the popular neighborhoods in Amsterdam?
+
+Issues with the data - 
+    * it is collected from a day where there will be abnormal behavior (Christmas Eve), 
+    * it is looking at availability of AirBnB's which will really tell you what neighborhoods were not able to rent out their listings (though if an area is popular it may have more listings overall we would have look at a fill rate to know if the number of empty listings is an indication of low demand. 
+    * Looking at rental listings will show popular areas for visitors not popular areas for people who actually live in Amsterdam.
+
+How I would change the question or data -
+    * To understand popular neighborhoods in Amsterdam for tourists I would look at occupancy rates for airbnbs, maybe growth in the listings and collect data from a wider range of dates. 
+
+
+
+Data Source: Mental health services use on September 12, 2001 in San Francisco, CA and New York City, NY. 
+Question: How do patterns of mental health service use vary between cities?
+Data Issues -
+    * NYC experienced a tragedy on the prior day and would not be comparable to San Fran though the demand for mental health service would be increased for both cities.
+    * If you really wanted to answer the how mental health service use varied between cities the data would need more representative dates
+    * A better question would be How do tragedies impact mental health service within cities?
+
+Data Source: Armenian Pub Survey. Question: What are the most common reasons Armenians visit local pubs?
+Data Issues -
+    * Respondants are primarily students from the Capital or urban areas so they will not represent the everyday Armenian
+    * The question should ask "What are the most common reasons Armenian University students visit local pubs?
