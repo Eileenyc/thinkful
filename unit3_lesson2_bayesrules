@@ -1,0 +1,22 @@
+https://courses.thinkful.com/data-201-prepv1/assignment/3.2.5
+
+98% probability of giving positive result when applied to a person suffering from thripshaws disease
+10% probability of giving false positive when applied to a healthy person
+0.5% of pop have the disease
+
+My Guesses:
+1. Be Positive = a little higher than 10%
+2. Correctly diagnose a sufferer of thripshaw's = 98%
+3. 90%
+4. >50%
+
+Actual:
+P(Positive Test|Infected) = 98%
+P(Infected) = 0.5%
+P(Positive Test|Not Infected) = 10%
+P(Infected|Positive Test) = P(Positive Test|Infected)*P(Infected)/P(Positive Test)
+
+1. Prob of being positve = 98%*0.5% + 10%*99.5% = 10.44%
+2. Correctly Diognose a sufferer = 98% since that is the probability listed in the question
+3. Correctly identify a non-sufferer = 90% since there is a 10% false positive rate
+4. Missclassify the person = 2%*0.5%+10%*99.5% = 9.96%
